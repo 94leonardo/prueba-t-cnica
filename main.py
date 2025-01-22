@@ -21,7 +21,7 @@ register_routes(app)
 
 @app.route("/")
 def index():
-    return "¡Servidor funcionando correctamente!"
+    return "¡Servidor funcionando correctamente!!"
 
 
 @app.route("/test_db")
